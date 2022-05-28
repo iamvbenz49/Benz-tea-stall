@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/teavadai.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.name {
+    margin-top: 300px;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Architects Daughter';
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Architects Daughter';
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    background-color: rgba(76, 78, 71, 0.589);
+    padding: 10px;
+    margin-left: 600px;
+}
+
+button:hover {
+    background-color: rgba(126, 133, 109, 0.589);
+}
