@@ -5,18 +5,10 @@ body {
     height: 1000px;
 }
 
-.name {
-    margin-top: 300px;
-    padding: 10px;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 10px;
-}
-
 h1 {
     font-family: 'Architects Daughter';
     text-align: center;
-    font-size: 50px;
+    font-size: 100px;
     color: white;
 }
 
@@ -32,12 +24,47 @@ h2 {
     padding: 0px;
 }
 
+.main {
+    margin-top: 400px;
+}
+
 button {
-    background-color: rgba(76, 78, 71, 0.589);
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     padding: 10px;
-    margin-left: 600px;
+    margin-left: 800px;
 }
 
 button:hover {
-    background-color: rgba(126, 133, 109, 0.589);
+    background-color: rgb(41, 155, 37);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Alata";
+    font-size: 30px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(41, 155, 37);
+}
+
+nav {
+    position: sticky;
 }
