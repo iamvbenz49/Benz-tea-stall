@@ -5,33 +5,30 @@ body {
     height: 1000px;
 }
 
-h1 {
-    font-family: 'Architects Daughter';
-    text-align: center;
-    font-size: 100px;
-    color: white;
-}
-
-h2 {
-    font-family: 'Architects Daughter';
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
-.main {
-    margin-top: 400px;
+.center {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: "Architects Daughter";
+    color: white;
+    font-size: 10vh;
+    top: 350px;
+    left: 500px;
 }
 
 button {
+    position: relative;
+    color: white;
+    font-size: 7vh;
+    font-family: "Architects Daughter";
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    left: 180px;
     padding: 10px;
-    margin-left: 800px;
 }
 
 button:hover {
